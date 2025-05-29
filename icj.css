@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>IMK Hausmeisterservice</title>
+  <!-- Schöne Schreibschrift von Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: '', cursive;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .kreisbild {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      margin-top: 30px;
+    }
+
+    header {
+      background: #2b7a78;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      font-size: 2.2em;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+
+    .hero {
+      background: #3aafa9;
+      padding: 100px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      background: rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      padding: 10px 20px;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+      font-size: 1.5em;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    footer {
+      background: #17252a;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 50px;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Logo im Kreis -->
+  <div style="text-align: center;">
+    <img src="c:\Users\ihrei\Pictures\image012.jpeg" alt="Logo" class="kreisbild" />
+
+  </div>
+
+  <header>
+    <h1>IMK - IHRE MEISTERSERVICE KOMPLETT</h1>
+    <nav>
+      <a href="#leistungen">Leistungen</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="#über">Über uns</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Zuverlässiger Hausmeisterservice für Ihre Immobilie</h1>
+  </div>
+
+  <section id="leistungen">
+    <h2>Unsere Leistungen</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: flex-start;">
+      <!-- Linke Spalte -->
+      <div style="flex: 1 1 800px;">
+        <ul>
+          <li>Gebäudereinigerarbeiten</li>
+          <li>Holz- und Bautenschutzarbeiten, Bautentrocknungsarbeiten</li>
+          <li>Bodenlegerarbeiten (Teppich, Laminat, PVC, Fertigparkett)</li>
+          <li>Einbau von genormten Baufertigteilen (z. B. Fenster, Türen)</li>
+          <li>Fugerarbeiten (im Hochbau)</li>
+          <li>Tankschutzarbeiten</li>
+          <li>Rohr- und Kanalreinigungsarbeiten</li>
+          <li>Teppichbodenreinigungsarbeiten</li>
+        </ul>
+      </div>
+      <!-- Rechte Spalte: Bild -->
+      <div style="flex: 1 1 400px;">
+        <img src="c:\Users\ihrei\Pictures\IMK.Tätigkeiten.png" alt="Tätigkeiten" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
+      </div>
+    </div>
+  </section>
+
+ <section id="über" style="background-color: #e8f0f0; padding: 50px 20px; font-size: 1.4em;">
+  <h2 style="text-align: center; font-size: 2em; margin-bottom: 20px;">Über uns – IMK Hausmeisterservice</h2>
+  <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 30px; max-width: 1200px; margin: auto;">
+    
+    <!-- Linke Spalte: Text -->
+    <div style="flex: 1 1 600px;">
+      <p>Willkommen bei <strong>IMK – Ihr Meisterservice Komplett</strong>, Ihrem zuverlässigen Partner rund um Haus, Gebäude und Grundstück. Seit über 10 Jahren stehen wir für Qualität, Verlässlichkeit und persönliche Betreuung in allen Bereichen des Hausmeisterdienstes.</p>
+      
+      <p>Wir sind ein engagiertes Team mit umfangreicher Erfahrung in der professionellen Objektbetreuung – von der Reinigung bis zur Instandhaltung. Unsere Kundinnen und Kunden schätzen vor allem unsere flexible Arbeitsweise, schnelle Einsatzbereitschaft und das faire Preis-Leistungs-Verhältnis.</p>
+      
+      <p>Ob Privathaushalt, Wohnanlage oder gewerbliches Objekt – wir kümmern uns darum, dass Ihre Immobilie gepflegt, sauber und funktional bleibt. Für uns zählt nicht nur das Ergebnis, sondern auch der Weg dorthin: sauber, gründlich, pünktlich und freundlich.</p>
+
+      <ul style="line-height: 1.8; margin-top: 20px;">
+        <li>✅ Persönliche Beratung & individuelle Lösungen</li>
+        <li>✅ Sorgfalt, Pünktlichkeit und Diskretion</li>
+        <li>✅ Zuverlässiges, geschultes Personal</li>
+        <li>✅ Moderne Ausrüstung & effiziente Arbeitsweise</li>
+        <li>✅ Transparente Preise – ohne versteckte Kosten</li>
+      </ul>
+
+      <p style="margin-top: 20px; font-style: italic;"><strong>„Wir arbeiten, als wäre es unser eigenes Zuhause.“</strong></p>
+    </div>
+
+   <section id="team" style="background-color: #ffffff; padding: 60px 20px; font-size: 1.3em;">
+  <h2 style="text-align: center; font-size: 2em; margin-bottom: 30px;">Unser Team bei der Arbeit</h2>
+  
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; max-width: 1200px; margin: auto;">
+
+    <!-- Textblock -->
+    <div style="flex: 1 1 500px; min-width: 300px;">
+      <p>Unser Team steht für Engagement, Präzision und Leidenschaft. Jeder Mitarbeiter bringt Fachkenntnisse, Erfahrung und ein hohes Maß an Verantwortung mit – egal ob bei der Reinigung, Instandhaltung oder technischen Betreuung Ihrer Immobilie.</p>
+      
+      <p>Bei <strong>IMK</strong> arbeiten wir Hand in Hand, effizient und lösungsorientiert – ganz nach dem Motto:</p>
+      <p style="font-style: italic; font-weight: bold; font-size: 1.1em;">„Gemeinsam schaffen wir Werte, die bleiben.“</p>
+      
+      <p>Unsere Kunden sehen nicht nur Ergebnisse, sondern erleben echte Zuverlässigkeit im Alltag. Und genau das macht unser Team aus: <strong>Vertrauen, Fleiß und Kompetenz.</strong></p>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Telefon: +49 15756396745 <br>Email: IMKService2015@gmail.com </p>
+    <p>Adresse: Marienplatz 6, 70178 Stuttgart</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 IMK Hausmeisterservice – Alle Rechte vorbehalten.</p>
+  </footer>
+
+</body>
+</html>
